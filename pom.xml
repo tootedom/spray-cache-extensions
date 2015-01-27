@@ -135,8 +135,9 @@
 
         <dependency>
             <groupId>io.spray</groupId>
-            <artifactId>spray-caching</artifactId>
+            <artifactId>spray-caching_2.10</artifactId>
             <version>${spray.version}</version>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>
